@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>הזמנות</title>
+    <link rel="stylesheet" href="../css/order.css">
+    <link rel="icon" type="image/x-icon" href="../imges/icon112.png">
+</head>
+<body>
+    <div class="container">    
+        <header>
+            <div class="image-header">
+               <img src="../imges/לוגו.png" alt="">
+            </div>    
+        </header>
+        <nav >
+            <a href="./home.html" class="a">דף הבית</a>
+        <a href="./about.html" class="a">אודות</a>
+        <a href="./menu.html" class="a">תפריט</a>
+        <a href="./branches.html" class="a">סניפים</a>
+        <a href="./using.html" class="a">תקנון האתר</a>
+
+        </nav>
+
+    <section class="orders">
+        <form action="./Details.html">
+            <h1 id="form">הזמנות</h1>
+            <div>
+                <fieldset>
+                    <b>
+                    <label for="">יושבים פה</label>
+                    <input type="radio" name="seat" id="seat">
+                    <br>
+                    <label for=""> take away</label>
+                    <input type="radio" name="seat" id="take away">
+                </b>
+                </fieldset>
+            </div>
+    
+            <input type="text" placeholder="שם הלקוח" class="aa" required autofocus>
+            <br>
+    
+            <input type="text" placeholder="כתובת" class="aa" required autocomplete="address-level1">
+            <br>
+            <input type="text" placeholder="טלפון" class="aa" required autocomplete="cc-number">
+             <br>
+            <input type="email" placeholder="אימייל" class="aa" required autocomplete="email">
+            <br>
+            <br>
+            <textarea name="" id="text" cols="46" rows="8.5" placeholder="הערות נוספות בנוגע להזמנה"></textarea>
+           
+           <br>
+           <input type="submit" id="sub">    
+        </form>
+    </section>
+
+    <footer>  
+        <p>
+     © כל הזכויות שמורות לתמר גבאי ואפרת אשורי   
+        </p>   
+    </footer>
+    </div>
+</body>
+</html>

@@ -1,5 +1,4 @@
 
----
 
 ### 📁 פרויקט: BurgerNatch – אתר למסעדה (`burgernatch-website`)
 ```md

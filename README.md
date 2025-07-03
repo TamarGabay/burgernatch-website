@@ -1,7 +1,7 @@
 
 
-### 📁 פרויקט: BurgerNatch – אתר למסעדה (`burgernatch-website`)
-```md
+# 📁 פרויקט: BurgerNatch – אתר למסעדה (`burgernatch-website`)
+
 # 🍔 BurgerNatch – אתר תדמיתי למסעדת בורגרים
 
 ## 📝 תיאור
